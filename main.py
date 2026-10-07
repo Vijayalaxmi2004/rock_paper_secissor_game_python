@@ -7,12 +7,12 @@ if user_choice not in ["rock", "paper", "scissors"]:
 else:
     print(f"Computer chose: {computer_choice}")
     if user_choice==computer_choice.lower():
-        print("tie")
+        print("It's a tie!")
     elif user_choice=="rock" and computer_choice=="scissors":
-        print("you win")
+        print("You are the winner!")
     elif user_choice=="paper" and computer_choice=="rock":
-        print("you win")
+        print("You are the winner!")
     elif user_choice=="scissors" and computer_choice=="paper":
-        print("you win")
+        print("You are the winner!")
     else:
-        print("you lose")
+        print("You are the loser!")
