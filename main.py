@@ -13,6 +13,6 @@ else:
     elif user_choice=="paper" and computer_choice=="rock":
         print("You are the winner!")
     elif user_choice=="scissors" and computer_choice=="paper":
-        print("You are the winner!")
+        print("You Won")
     else:
         print("You are the loser!")
